@@ -1,0 +1,51 @@
+.arriba {
+    background-color: rgb(10, 44, 44);
+    height: 100px;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    width: 100%;
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+.ellov {
+    background-color: #33e01c;
+    height: 540px;
+    padding: 20px;
+}
+
+.tiempo {
+    background-color: #ff0000;
+    padding: 10px;
+    height: 560px;
+    display: grid;
+    grid-template-rows: repeat(2/1); 
+    gap: 10px;
+}
+
+.tiempo .top-box,
+.tiempo .que {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.cuadrotasa {
+    top: 10px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 119, 0);
+    position: relative;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: rgb(6, 19, 34);
+    height: 60px;
+    top: 30px;
+}
